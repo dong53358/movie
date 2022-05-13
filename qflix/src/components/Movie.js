@@ -11,9 +11,7 @@ function Movie({ id, coverImg, title, summary, genres }) {
         </div>
         <div className={styles.TitleAndInfo}>
           <h2>
-            <Link className={styles.link} to={`/movie/${id}`}>
-              {title}
-            </Link>
+            <Link to={`/movie/${id}`}>{title}</Link>
           </h2>
           <ul>{genres && genres.map((g) => <span key={g}>{g}</span>)}</ul>
         </div>
