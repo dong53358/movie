@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//dong53358.github.io/movie/static/css/main.5050ed33.css",
+    "main.js": "/https//dong53358.github.io/movie/static/js/main.7dbb24cc.js",
+    "index.html": "/https//dong53358.github.io/movie/index.html",
+    "main.5050ed33.css.map": "/https//dong53358.github.io/movie/static/css/main.5050ed33.css.map",
+    "main.7dbb24cc.js.map": "/https//dong53358.github.io/movie/static/js/main.7dbb24cc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5050ed33.css",
+    "static/js/main.7dbb24cc.js"
+  ]
+}
