@@ -10,8 +10,10 @@ function Movie({ id, coverImg, title, summary, genres }) {
           <img src={coverImg} alt={title} />
         </div>
         <div className={styles.TitleAndInfo}>
-          <h2>
-            <Link to={`/movie/${id}`}>{title}</Link>
+          <h2 className={styles.title}>
+            <Link style={{ textDecoration: "none" }} to={`/movie/${id}`}>
+              {title}
+            </Link>
           </h2>
           <ul>{genres && genres.map((g) => <span key={g}>{g}</span>)}</ul>
         </div>
