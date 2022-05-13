@@ -22,9 +22,15 @@ function Home() {
   return (
     <div className={styles.body}>
       <div className={styles.nav}>
-        <span>QFLIX</span>
-        <span>
-          <Link to={`/`}>home</Link>
+        <span className={styles.qflix}>
+          <Link style={{ textDecoration: "none", color: "red" }} to={`/`}>
+            QFLIX
+          </Link>
+        </span>
+        <span className={styles.home}>
+          <Link style={{ textDecoration: "none", color: "white" }} to={`/`}>
+            home
+          </Link>
         </span>
       </div>
       {loading ? (

@@ -14,20 +14,21 @@
   margin: 30px;
 }
 
-.nav span {
-  color: red;
+.qflix a:link,
+a:visited,
+a:hover,
+a:active {
   font-size: 40px;
   font-weight: 600;
   margin-right: 30px;
 }
 
-.nav span a:link,
+.home a:link,
 a:visited,
 a:hover,
 a:active {
-  text-decoration: none;
-  background-color: #141414;
-  color: white;
+  font-size: 40px;
+  font-weight: 600;
   font-size: 30px;
 }
 

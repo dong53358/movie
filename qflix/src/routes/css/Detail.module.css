@@ -8,6 +8,12 @@
   color: white;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
 .LoadingMain {
   display: flex;
   height: 100%;
@@ -21,33 +27,22 @@
   font-weight: 600;
 }
 
-.nav {
-  display: flex;
-  margin: 30px;
-}
-
-.nav span {
-  color: red;
-  font-size: 40px;
-  font-weight: 600;
-  margin-right: 30px;
-}
-
-.nav span a:link,
+.qflix a:link,
 a:visited,
 a:hover,
 a:active {
-  text-decoration: none;
-  background-color: #141414;
-  color: white;
-  font-size: 30px;
-}
-
-.nav span {
-  color: red;
   font-size: 40px;
   font-weight: 600;
   margin-right: 30px;
+}
+
+.home a:link,
+a:visited,
+a:hover,
+a:active {
+  font-size: 40px;
+  font-weight: 600;
+  font-size: 30px;
 }
 
 .main {
