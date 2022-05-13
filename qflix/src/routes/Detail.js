@@ -35,7 +35,7 @@ function Detail() {
           <div className={styles.main2}>
             <div className={styles.imgAndTitle}>
               <span className={styles.img}>
-                <img src={details.medium_cover_image} />
+                <img src={details.medium_cover_image} alt={details.title} />
               </span>
               <span className={styles.title}>{details.title}</span>
             </div>
